@@ -1,0 +1,8 @@
+name: {name}
+version: ${project.version}
+main: com.revent.{name}.Main
+api-version: 1.13
+prefix: {name}
+depend: [corePlugin, vault]
+authors: [reventcake295]
+description: {name} module of the revent server

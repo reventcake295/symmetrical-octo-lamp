@@ -1,0 +1,47 @@
+lore revent server:
+het gebeurde lang geleden zo lang geleden dat wienig mensen het vandaag de dag niks kunnen herrineren van wat er toen gebeurde.
+ooit bestond dit universum uit een enkele wereld met allemaal soorten dingen die gedaan konden worden maar toen de dimensionale energieen deze wereld verscheurde veranderde alles.
+de hub zoals je hem nu kent was voor de verscheuring van deze wereld ook het centrale punt van alles wat er mogeljk was waar je vroeger via paden en karretjes naar verschillende plekken kon gaan ga je nu via portalen die gedreven worden door de dimensionale energieen.
+de dimensionale energieen veranderde veel in dit universum het helpt zijn inwoners maar straft ze ook als ze dingen doen die niet mogen.
+sommige werelden veranderde voorgoed zoals in de creative world kon je eerst helemaal niet vliegen.
+maar het wordt tijd dat er eens uitgezocht wordt wat er toen gebeurt was zodat we meer duidelijkheid kunnen krijgen over wat er met dit universum gebeuren gaat.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wijzegingen in de server buildings aan tebrengen:
+    hub:
+	dimensionale hole onder span van hub
+	paden en karretjes toevoegen aan de portal plots om spawn heen
+	nieuwe manier van onafgemaakte gebieden afsluiten implementeren (de dimensionale energieen zijn op deze plek te instabiel op dit moment)
+    playworlds:
+	voeg afgesloten pad of karretjes plek toe aan spawn punt (in over een koming met het geen wat in de hub gedaan is)
+
+
+lore referenties in server meldingen:
+ban: de dimensionale energieen vinden het niet leuk wat je gedaan hebt
+kits: de dimensionale energieen heeft u de kit [kit naam] gegeven
+server in onderhoud: de dimensionale energieen zijn op dit moment te instabiel
+
+
+menu's te maken:
+info menu:
+    tabs:
+	werelden (info over verschillende werelden opgedeel in verschillnde tabs)
+	    survival
+	    skyblock
+	    etc.
+	algemene info (algemene info)
+	geruchten (geruchten die niet bevestigd zijn maar wel kunnen helpen bij dingen die ze meschien willen doen)
+

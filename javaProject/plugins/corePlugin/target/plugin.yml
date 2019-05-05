@@ -1,0 +1,8 @@
+name: corePlugin
+main: com.revent.CoreMain
+version: ${project.version}
+api-version: 1.13
+prefix: corePlugin
+depend: [vault, CommandAPI]
+authors: [reventcake295]
+description: villager module of the revent server

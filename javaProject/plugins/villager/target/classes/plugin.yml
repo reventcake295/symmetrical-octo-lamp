@@ -1,0 +1,8 @@
+name: Villager
+version: 1.0-SNAPSHOT
+main: com.revent.villager.Main
+api-version: 1.13
+prefix: Villager
+depend: [corePlugin]
+authors: [reventcake295]
+description: villager module of the revent server

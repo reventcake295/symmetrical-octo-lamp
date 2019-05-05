@@ -1,0 +1,8 @@
+name: Quest
+version: ${project.version}
+main: com.revent.quest.QuestMain
+api-version: 1.13
+prefix: quest
+depend: [corePlugin, vault, CommandAPI]
+authors: [reventcake295]
+description: quest module of the revent server

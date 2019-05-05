@@ -1,0 +1,66 @@
+name: command
+version: ${project.version}
+main: com.revent.command.CommandsMain
+author: reventcake295
+api-version: 1.13
+prefix: quest
+depend: [corePlugin, quest, ranks, villager, CommandAPI]
+description: command handelers of the server
+commands:
+  kit:
+    description: opent het kit menu
+    usage: "da wa how did you get this message!"
+  spawn:
+    description: teleporteerd je naar spawn
+    usage: "da wa how did you get this message!"
+  buildwarp:
+    usage: doe /help builderwarp voor alle mogelijk heden
+    description: teleporteer naar een bepaalde warp in de builderworld
+  msg:
+    usage: da wa how
+    description: da wa how
+  r:
+    usage: da wa how
+    description: da wa how
+  broadcast:
+    usage: da wa how
+    description: da wa how
+  excecutor:
+    usage: da wa how
+    description: da wa how
+  antischeld:
+    usage: da wa how
+    description: da wa how
+  fight:
+    usage: da wa how
+    description: da wa how
+  ban-menu:
+    usage: doe /help ban voor meer informatie
+    description: ban players van de server via een menu
+  regels:
+    description: als je dit ziet dan is er ergens iets fout gegaan
+    usage: /regels
+  Menu:
+    description: Opent het menu.
+  vanish:
+    description: verbergt je voor alle spelers
+    usage: "gebruik: /vanish"
+  server:
+    usage: /server
+    description: teleporteert naar een server naar keuze
+    aliases: [hub, skyblock, survival, builderworld, minetopia, prison, kitpvp, factions, dungeoncrawler, creative, islandsurvival]
+  find:
+    usage: /find [spelernaam]
+    description: zoek een speler op de servver
+  tp:
+    usage: /tp [spelernaam]
+    description: teleporteer naar een speler in dezelfde wereld
+  name:
+    usage: /name [spelernaam / nepnaam]
+    description: vind iemands echte / nep naam
+  nickname:
+    usage: /nickname [naam]
+    description: verander je naam
+  ef:
+    usage: /ef [effect command syntax]
+    description: bus voor het effect command

@@ -1,0 +1,8 @@
+name: event
+version: ${project.version}
+main: com.revent.event.EventMain
+api-version: 1.13
+prefix: quest
+depend: [corePlugin, quest, ranks, villager, CommandAPI]
+authors: [reventcake295]
+description: event handelers of the server

@@ -1,0 +1,49 @@
+TODO: short hand: if statement
+                  switch statement
+find appropiate locations for such things and find short hand version of the switch statement (does it exist?)
+
+TODO: try to change the corePlugin namings from CRUD to corePlugin (first back it all up do not want the same result as last time)
+
+TODO: implement the kits for all the worlds and create the timer system for the kits
+
+TODO: create quest system whit advancements:
+main advancement controller in corePlugin.advancement package
+main quest controller in the quest plugin whit acces point availeble for commands and events
+
+quest start procedure
+quest start
+quest object created and added to hashmap[player, hashmap[questId, quest object] in serverData for acces by other plugins
+quest state updated in database
+
+quest progress procedure
+quest at correct point in quest object
+new objective given
+quest state updated in quest object
+quest state updated in database
+
+quest finish procedure
+quest at correct point in quest object
+quest finish given
+quest object removed from hashmap
+quest state updated in database
+
+quest unload procedure
+player logout
+quest hashmap for player removed
+
+quest load procedure
+player joins
+quest hashmap genereted and filled whit quest objects from database
+
+quest menu procedure
+quest menu open
+select quest group
+load each object involving that quest group from the quest hashmap in the serverData
+
+
+
+TODO: roofwars
+
+TODO: econemy system
+
+TODO: ranks

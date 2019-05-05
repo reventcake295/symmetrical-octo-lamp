@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>160</y>
+      <w>260</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*player*
+--
+playerUUID:varchar(32): PK NN
+--
+globalMoney:float: NN
+--
+/survivalMoney:float: NN/
+--
+/skyblockMoney:float: NN/
+--
+rank.id:INT: NN FK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>140</y>
+      <w>270</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>*questProgress*
+--
+id:INT:PK NN AI
+--
+playerUUID:varchar(32):NN FK
+--
+quest.ID: INT:NN FK
+--
+state:INT:NN
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>180</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*quest*
+--
+id:INT:PK NN AI
+--
+name: VARCHAR(100):NN
+--
+fileloc:VARCHAR(100):NN
+--
+questType.id:INT:NN FK
+--
+questGroup.id:INT:NN FK
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>550</y>
+      <w>240</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>*rank*
+--
+id:INT: PK NN
+--
+name: VARCHAR(100): NN
+--
+buyable:INT: NN
+--
+internalName:VARCHAR(100):NN
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>270</y>
+      <w>70</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&lt;</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0;10.0;320.0;40.0;320.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>190</y>
+      <w>220</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&lt;</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>210</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&lt;</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>660</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*questType*
+--
+id:INT:PK NN AI
+--
+name:VARCHAR(100):NN
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>660</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>*questGroup*
+--
+id:INT:PK NN AI
+--
+name:VARCHAR(100):NN
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

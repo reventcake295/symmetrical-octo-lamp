@@ -1,0 +1,8 @@
+name: Ranks
+version: ${project.version}
+main: com.revent.ranks.RanksMain
+api-version: 1.13
+prefix: Villager
+depend: [corePlugin, CommandAPI]
+authors: [reventcake295]
+description: ranks module of the revent server
