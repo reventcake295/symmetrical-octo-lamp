@@ -80,11 +80,11 @@ public class CoreMain extends JavaPlugin {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			MysqlDataSource dataSource = new MysqlDataSource();
-			dataSource.setServerName("83.87.28.180");
-			dataSource.setPort(3306);
-			dataSource.setDatabaseName("MCServer");
-			dataSource.setUser("MCserver");
-			dataSource.setPassword("12QWas!@12QWas!@");
+			dataSource.setServerName("[IP]");
+			dataSource.setPort([PORT]);
+			dataSource.setDatabaseName("[DB_NAME]");
+			dataSource.setUser("[USER]");
+			dataSource.setPassword("[PASSWORD]");
 			connection = dataSource.getConnection();
 		} catch (Exception ex) {
 			ex.printStackTrace(getErrorWriter());
