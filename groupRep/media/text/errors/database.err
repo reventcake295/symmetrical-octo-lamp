@@ -1,0 +1,49 @@
+action: uknownType
+ time: 2019-05-25 20:51:06:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:52:22:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:52:30:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:52:33:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:52:35:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:52:46:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:52:49:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:54:21:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:55:48:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 20:59:40:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 21:01:18:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 21:02:24:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 21:25:31:000000
+ debugInfo: action: uknownType
+ time: 2019-05-25 21:28:17:000000
+ debugInfo: action: 
+ time: 2019-05-25 21:40:59:000000
+ debugInfo: action: 
+ time: 2019-05-25 21:41:51:000000
+ debugInfo: action: checkUser
+ time: 2019-06-14 12:40:38:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1action: checkUser
+ time: 2019-06-14 12:43:09:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1action: checkUser
+ time: 2019-06-14 12:44:15:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1action: checkUser
+ time: 2019-06-14 12:46:32:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1action: checkUser
+ time: 2019-06-14 12:50:54:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1action: checkUser
+ time: 2019-06-14 13:11:00:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1action: checkUser
+ time: 2019-06-14 13:12:53:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1action: checkUser
+ time: 2019-06-14 13:16:23:000000
+ debugInfo: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1

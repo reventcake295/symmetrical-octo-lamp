@@ -1,0 +1,6 @@
+$_session
+  [login]
+    [loggedin]
+    [name]
+    [id]
+    [adminLevel]

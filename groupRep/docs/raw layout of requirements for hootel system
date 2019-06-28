@@ -1,0 +1,72 @@
+tables:
+catogery tabel
+room tabel
+user tabel
+reservation tabel
+menu tabel
+
+menu structuur:
+http://SITE.com/
+	home
+	reservation
+	about
+	payment
+	guest/
+		dashboard
+		minibar
+		payment
+		room
+	admin/	
+		dashboard
+		category
+		floorplan
+		room
+		login
+		register
+		logout
+	frontdesk/
+		dashboard
+		rooms
+		newguest
+		payment
+	pricing/
+		assignprice
+		rooms
+        minibar
+	cleaners/
+		dashboard
+		room
+		floorplan
+
+hotelkeeper
+add category
+see floorplan
+assign category to room through floorplan
+print list of rooms whit category they belong to
+can see a list of rooms ocupied and reserved rooms within a certain period
+
+pricing system
+assign price to room of category family, single or double rooms for a day or period of time
+must be filled in atleast 3 month in advance
+see a list of all the rooms and pricing for each day and print this list
+
+front desk
+must be able to see a list of rooms prices for a week
+must be able to see all unoccupied and the amount of vacant rooms on a certain day per category
+must be able to set a guest as an occupant of a room
+must be able to see if it is prepaid or post-paid
+in case of post-paid front desk must be able to create a invoice for the room fee that is due
+
+web reservation system
+visitor can see the availeble categories of rooms and the price of each room for a start to end date
+when price differs it will be shown on the website
+visitor can see a few pictures and a video of the room
+
+visitor can make a reservation where the visitor must enter name, home address, city, country, telephone number and email address
+
+guest:
+can interact whit the minibar
+
+cleaners:
+can see floorplan whit the rooms that need cleaning
+

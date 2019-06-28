@@ -1,0 +1,65 @@
+html body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #151515;
+}
+
+html body * {
+  font-style: normal;
+  font-size: 14px !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html body div.wrapper {
+  width: 100vw;
+}
+
+html body div.wrapper header {
+  max-width: 100vw;
+  z-index: -1;
+}
+
+html body div.wrapper header img {
+  min-width: 100vw;
+  width: 100vw;
+  height: 500px !important;
+}
+
+html body div.wrapper main {
+  height: 100vh;
+  max-width: 1532px;
+}
+
+html body div.wrapper main h1 {
+  color: black;
+  height: 60px;
+  width: 100%;
+}
+
+html body div.wrapper main #options {
+  width: 880px;
+  margin: 10px auto;
+}
+
+html body div.wrapper main #options .option {
+  width: 200px;
+  height: 535px;
+  background-color: aliceblue;
+  border: 1px black solid;
+  margin: 10px;
+  float: left;
+}
+
+html body div.wrapper main main.home {
+  width: 100%;
+}
+
+html body div.wrapper footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  height: 140px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+username: Username
+username.empty: No username was filled in
+password: Password
+password.empty: No password has been filled in.
+signUpMessage: Don't have an acount?
+signUpButton: Register here
+login.unable: Can't login mayby username or password wrong?
+login.passwordWrong: Wrong password, please try again!
+login.usernameUnknown: No user could be found!

@@ -1,0 +1,10 @@
+loginMessage: Already have a acount?
+loginButton: Login Here
+username: Username
+username.empty: Please fill in a username.
+password: Password
+password.empty: Please fill in a password.
+password.<8: Password too short minium of 8 characters.
+password.noMatch: Passwords do not match!
+confirmPassword: Repeat password.
+confirmPassword.empty: Please repeat the password.

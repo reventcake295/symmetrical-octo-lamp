@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "resrticted area"
+AuthUserFile /home/reventcake295/repositorys/htdocs/admin/private/.htpasswd
+Require valid-user

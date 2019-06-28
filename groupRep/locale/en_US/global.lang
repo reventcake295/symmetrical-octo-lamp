@@ -1,0 +1,30 @@
+register.registerd: You have been registerd.
+login.loggedIn: You have been loggedin.
+logout.loggedOut: You have been logged out.
+videoTest: This file is no video that can be played, please select another file.
+file.noImage: This file is no image.
+file.fakeImage: This image is fake.
+file.noVideo: This is no video file.
+file.noAudio: This is no audio file.
+file.exists: a file whit that name already exists.
+file.toLarge: the file is too large.
+file.uploadError: There was an error while uploading you file.
+file.fileUploaded: Your file has been uploaded.
+database.unknownType: Something went wrong, try again later!
+database.unknown: Something went wrong, try again later!
+database.userDelete: Something went wrong, try again later!
+database.login: Something went wrong, try again later!
+database.register: Something went wrong, try again later!
+database.getAdminLevel: Something went wrong, try again later!
+database.checkUser: Something went wrong, try again later!
+database.getUsers: Something went wrong, try again later!
+database.userTableCreate: Something went wrong, try again later!
+debug.database.unknownType: An unknown type was passed on to the excercutor function '%errorMsg' was found.
+debug.database.unknown: Something went wrong, here is the error message: %errorMsg.
+debug.database.userDelete: this: '$errorMsg' went wrong while deleting the user from the database.
+debug.database.login: this: '$errorMsg' went wrong while logging in the user.
+debug.database.register: this: '$errorMsg' went wrong while registering a user.
+debug.database.getAdminLevel: this: '$errorMsg' went wrong while getting the adminLevel of a user from the database.
+debug.database.checkUser: this: '$errorMsg' went wrong while checking of a user exists.
+debug.database.getUsers: this: '$errorMsg' went wrong while getting all the users.
+debug.database.userTableCreate: this: '$errorMsg' went wrong while creating the user table in the database.
